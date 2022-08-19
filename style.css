@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Allerta", "serif";
+  margin: 10px 20px ;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+}
+#navbarMonstera {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+nav #navFirst {
+  display: flex;
+  flex: 0.5;
+  height: 30px;
+  margin-left: 60px;
+}
+
+nav #navMid {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 20%;
+  /* right: 20%;
+  top: 50px; */
+}
+#navMid h4 {
+  margin-left: 60px;
+}
+h4.line {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+nav #navEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 60px;
+}
+#navEnd img {
+  margin-right: 20px;
+}
+#midWhole {
+ 
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 80vh;
+}
+
+#midWholePart11 {
+  margin-left: 30px;
+}
+#monstera {
+  font-size: 60px;
+}
+li {
+  margin-top: 10px;
+  width:600px;
+}
+#midWholePart13 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.midWholePart13Parts {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.midWholePart13Parts div {
+  margin-left: 10px;
+}
+#midWholePart13 {
+  margin-left: 40px;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  right: 50%;
+}
+p.text {
+  font-size: 10px;
+}
+.midWholePart13Parts img {
+  height: 50px;
+}
+#feeding {
+  height: 70px;
+}
+#midWholePart12 {
+  position: absolute;
+  top: 60%;
+  left: 2%;
+  right: 78%;
+  margin-left: 40px;
+}
+#midWholePart121 {
+  border: none;
+  background-color: rgb(9, 88, 37);
+  color: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 50px;
+  display: flex;
+  float: 1px;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+ 
+}
+#midWholePart121 h1 {
+  font-size: 25px;
+ 
+}
+#midWholePart122 > img {
+  height: 15px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+img #imgMain {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 40%;
+}
+#imgMain {
+  height:550px;
+  width:500px;
+  /* background-position: center; */
+}
